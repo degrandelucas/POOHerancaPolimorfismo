@@ -7,7 +7,7 @@ public class ModeloCarro extends Carro {
 
     // Construtor que inicializa (necessario novamente, quando não é o construtor padrão na classe super) e tipoCombustivel
     public ModeloCarro(String modelo, double precoAno1, double precoAno2, double precoAno3, String tipoCombustivel) {
-        super(modelo, precoAno1, precoAno2, precoAno3); // Chama o outro construtor da subclasse
+        super(modelo, precoAno1, precoAno2, precoAno3);
         this.tipoCombustivel = tipoCombustivel;
     }
 
